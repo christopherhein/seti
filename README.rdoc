@@ -1,6 +1,36 @@
 = SETI-API
 
-Description goes here.
+Allows us to easily connect to the SETI api to get the data 
+to use:
+
+for getting the ATA data
+
+ Will respond with the json output of the ATA data
+  SetiApi.new
+ 
+ Will respond with the xml format
+  SetiApi.new(format: "xml")
+
+ Will get the daily report from setiquest
+  SetiApi.new(feed_type: "report")
+
+
+==== Options that can be passed into this are:
+
+  username: (if the api becomes locked by HTTP Auth Basic)
+  password: (if the api becomes locked by HTTP Auth Basic)
+  feed_type: "ata" || "report"
+  url: (if there is an explicit url you want to get the content of)
+  format: "json" || "xml"
+
+
+==== Methods on the parsed data
+
+ Will turn the json into a hash format
+  SetiApi.new().from_json
+
+ Will turn the XML into a hash format 
+  SetiApi.new(format: "xml").from_xml
 
 == Contributing to seti-api
  
@@ -14,6 +44,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Christopher Hein. See LICENSE.txt for
+Copyright (c) 2011 General Things Inc. See LICENSE.txt for
 further details.
 
