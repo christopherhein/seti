@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "seti-api"
-  gem.homepage = "http://github.com/christopherhein/seti-api"
+  gem.homepage = "http://github.com/generalthings/seti-api"
   gem.license = "MIT"
   gem.summary = %Q{An api to access the api for the ATA}
   gem.description = %Q{An api to access the api for the ATA}
-  gem.email = "me@christopherhein.com"
-  gem.authors = ["Christopher Hein"]
+  gem.email = "chris@generalthings.com"
+  gem.authors = ["General Things In.","Christopher Hein"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
