@@ -1,4 +1,4 @@
-= seti-api
+= SETI-API
 
 Description goes here.
 

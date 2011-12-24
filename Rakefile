@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "seti-api"
   gem.homepage = "http://github.com/christopherhein/seti-api"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{An api to access the api for the ATA}
+  gem.description = %Q{An api to access the api for the ATA}
   gem.email = "me@christopherhein.com"
   gem.authors = ["Christopher Hein"]
   # dependencies defined in Gemfile
