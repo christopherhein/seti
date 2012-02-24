@@ -28,10 +28,16 @@ Want to get the status of the ATA as the current time use
 Seti.get.ata_status
 ```
 
-What to know the current day schedule for what is going to scanned and when
+Want to know the current day schedule for what is going to scanned and when
 
 ```ruby
 Seti.get.ata_schedule
+```
+
+Want to get the morning report
+
+```ruby
+Seti.get.observation_report
 ```
 
 ## Resources:
