@@ -1,1 +1,1 @@
-rvm use 1.9.2@seti-api --create
+rvm use 1.9.2@seti --create
