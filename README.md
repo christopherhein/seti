@@ -42,7 +42,7 @@ Seti.get.observation_report
 
 ## Resources:
 
-* [Add This Analytics API](http://www.addthis.com/help/analytics-api#.TzzlN0zC4V)
+* [SETIQuest info API](http://setiquest.info/)
 
 
 ## Note on Patches/Pull Requests
