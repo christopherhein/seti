@@ -10,13 +10,13 @@
 # @example
 #   Seti.get.kepler_schedule
 
-# require "seti/requests"
+require "seti/requests"
 
 module Seti
   
   class Client
     # include all other classes to inherit
-    # include
+    include Requests
     
     # Creating the base client
     #
@@ -48,10 +48,7 @@ module Seti
       
       # @protected
       def default_headers
-        {
-          accept:     "application/json",
-          user_agent: "Ruby gem"
-        }
+        { user_agent: "Ruby gem" }
       end
   end
   

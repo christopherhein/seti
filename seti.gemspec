@@ -22,7 +22,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "faraday"
   s.add_runtime_dependency "faraday_middleware"
   s.add_runtime_dependency "hashie"
+  s.add_runtime_dependency "multi_xml"
   s.add_development_dependency "rspec"
   s.add_development_dependency "guard"
   s.add_development_dependency "guard-rspec"
+  s.add_development_dependency "ruby_gntp"
 end
